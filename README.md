@@ -33,4 +33,4 @@ Para que todo funcione bien al subirlo a Internet, organicé mis archivos así:
 * `css/` -> Aquí guardé las hojas de estilo del horario, el formulario, la calculadora y el menú.
 * `js/` -> Aquí está el código de JavaScript para que funcione el botón del conversor.
 * `img/` -> La carpeta donde guardé las imágenes de los paisajes y viajes.
-* Raíz -> Todos mis archivos `.html` del 1 al 10, junto con este archivo explicativo.
+*Todos mis archivos `.html` del 1 al 10, junto con este archivo explicativo.
