@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14- Número mayor, menor y promedio  </title>
+    <link rel="stylesheet" href="css/ejercicio11.css">
+
+</head>
+<body>
+<div class="contenedor-formulario ">
+<h1>Número mayor, menor y promedio   </h1>
+<p class="subtitulos ">Ingresa una serie de números separado por comas   </p>
+
+<form class="formulario" onsubmit="return false;">
+<div class="grupo-formulario">
+<label for="Numeros"> Números </label>
+<input type="text" id="Numeros" name="numeros" placeholder="Ejemplo: 10, 20, 30 " >
+   </div>
+   <div class="grupo-formulario">
+
+<label for="numayor"> Número mayor  </label>
+<input type="text" id="numayor" placeholder="El número mayor " readonly>
+
+<label for="numenor"> Número menor  </label>
+<input type="text" id="numenor" placeholder="El número menor " readonly>
+
+<label for="promedio"> Promedio </label>
+<input type="text" id="promedio" placeholder="El promedio de los números  " readonly>
+
+
+</div> 
+<button type="button" class="boton-enviar" onclick="Calcular()">
+    CLICK PARA VERIFICAR 
+</button>
+ </form>   </div>
+
+ <script src="js/ejercicio14.js"></script>
+</body>
+</html>
