@@ -1,0 +1,123 @@
+:root {
+    --color-primario: #101617;
+    --color-secundario: #0d2839;
+    --color-fondo: hsl(280, 34%, 79%);
+    --color-texto: #e4d4e9;
+    --color-borde: #7d266d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.contenedor-formulario {
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(176, 17, 204, 0.796);
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.165);
+}
+
+h1 {
+    font-size: 26px;
+    color: var(--color-primario);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #090a4b;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.grupo-formulario {
+    margin-bottom: 25px;
+}
+
+.grupo-formulario label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+input:focus {
+    border-color: var(--color-secundario);
+    outline: none;
+    box-shadow: 0 0 5px rgba(15, 1, 14, 0.3);
+}
+
+.boton-enviar {
+    background-color: var(--color-secundario);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.boton-enviar:hover {
+    background-color: #41084a;
+}
+
+#listaTareas {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.item-tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-primario);
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-left: 5px solid var(--color-borde);
+    color: white;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}

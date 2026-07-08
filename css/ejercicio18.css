@@ -1,0 +1,9 @@
+body {
+            background-color: hsl(280, 34%, 79%);
+            padding: 40px 20px;
+        }
+        .tarjeta-personalizada {
+            background: rgba(176, 17, 204, 0.796);
+            border: 1px solid #222;
+            color: #e4d4e9;
+        }
